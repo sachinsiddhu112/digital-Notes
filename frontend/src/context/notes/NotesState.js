@@ -5,7 +5,7 @@ import NoteContext from "./noteContext";
 //instead of passing one state varibale to all components 
 //we directly use usecontext to get all state variables in those components in which it is required.
 const NoteState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "https://digital-notes-rho.vercel.app";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 
